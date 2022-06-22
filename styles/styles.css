@@ -12,7 +12,7 @@ h1 {
     background-color: aqua;
     height: 80px;
     width: 350px;
-    font-size: 40px;
+    font-size: 53px;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -44,5 +44,30 @@ h2 {
     margin-left: auto;
     margin-top: 125px;
     margin-right: 50px;
+}
+
+.AboutMe {
+    display: flex;
+    margin-top: 25px;
+
+}
+
+h3 {
+    display: block;
+    border-right: solid 5px rgb(1, 1, 71);
+    font-size: 70px;
+    color: rgb(1, 1, 71);
+    margin-right: 40px;
+    padding-right: 20px;
+    margin-left: 100px;
+    text-align: end;
+}
+
+p {
+    font-size: 20px;
+    margin-right: 40px;
+    color: rgb(3, 3, 94);
+    line-height: 25px;
+
 }
 
