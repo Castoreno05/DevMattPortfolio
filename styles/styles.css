@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header {
     background-color: rgb(90, 89, 100);
@@ -68,6 +72,36 @@ p {
     margin-right: 40px;
     color: rgb(3, 3, 94);
     line-height: 25px;
+}
 
+h4 {
+    border-right: solid 5px rgb(1, 1, 71);
+    font-size: 70px;
+    color: rgb(1, 1, 71);
+    margin-right: 40px;
+    padding-right: 20px;
+    margin-left: 127px;
+}
+
+.work {
+    display: flex;
+}
+
+.firstProject {
+    height: 300px;
+    width: 100%;
+    border: solid aqua 2px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.firstProject p {
+    color: black;
+    background-color: aqua;
+    height: 60px;
+    width: 130px;
+    margin-bottom: 25px;
 }
 
