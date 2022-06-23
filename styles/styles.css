@@ -1,7 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -25,10 +24,9 @@ h1 {
 .navLinks, li, a {
     display: inline-block;
     color: aqua;
-    margin-right: 15px;
     font-size: 20px;
     padding: 10px;
-    margin-left: -25px;
+    margin-left: -30px;
 }
 
 .subTitle {
@@ -63,7 +61,7 @@ h3 {
     color: rgb(1, 1, 71);
     margin-right: 40px;
     padding-right: 20px;
-    margin-left: 100px;
+    margin-left: 18px;
     text-align: end;
 }
 
@@ -80,7 +78,7 @@ h4 {
     color: rgb(1, 1, 71);
     margin-right: 40px;
     padding-right: 20px;
-    margin-left: 127px;
+    margin-left: 45px;
 }
 
 .work {
@@ -114,20 +112,35 @@ h4 {
 h5 {
     display: block;
     border-right: solid 5px rgb(1, 1, 71);
-    font-size: 50px;
+    font-size: 35px;
     color: rgb(1, 1, 71);
     margin-right: 65px;
     padding-right: 20px;
-    margin-left: 33px;
+    margin-left: 30px;
     height: 75px;
+    text-align: end;
 }
 
 .contactMe a {
     color:black;
     display: flex;
     font-size: 25px;
+    padding-right: 20px;
 }
 
 .info {
     display: contents;
 }
+
+li {
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 1050px) {
+    h5 {
+        font-size: 51px;
+        height: 105px;
+    }
+}
+    
+
