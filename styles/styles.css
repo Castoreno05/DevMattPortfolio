@@ -88,12 +88,13 @@ h4 {
 
 .firstProject {
     height: 300px;
-    width: 100%;
+    width: 770px;
     border: solid aqua 2px;
     margin-right: 150px;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: blueviolet;
 }
 
 .firstProject p {
@@ -106,6 +107,7 @@ h4 {
 
 .group {
     margin-top: -325px;
+    width: 1290px;
 }
 
 .row1 {
@@ -123,6 +125,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: blueviolet;
 }
 
 .led p {
@@ -141,6 +144,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: blueviolet;
 }
 
 .calculator p {
@@ -166,6 +170,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: end; 
+    background-color: blueviolet;
 }
 
 .pastel p {
@@ -184,6 +189,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-color: blueviolet;
 }
 
 .run p {
