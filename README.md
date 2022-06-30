@@ -1,6 +1,15 @@
+![DevMattPortfolio](images/topPage.PNG)
+![DevMattPortfolio](images/midPage.PNG)
+![DevMattPortfolio](images/Capture.PNG)
+
+---
+
 ## Portfolio
 
-akjsdlaksjdkajs
+Welcome to the DevMattPortfolio webpage. Throughout this journey I will be adding projects and modules
+
+to showcase skills learned along the way.
+  
 
 ---
 
