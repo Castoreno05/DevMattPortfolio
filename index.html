@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <!-- Link to reset and styles CSS -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>DevMattPortfolio</title>
@@ -12,11 +13,13 @@
     <header class="header">
         <h1>Lernantino</h1>
         <nav class="navLinks">
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+            <ul> 
+                <!-- Wrapped in the id of the individual section -->
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contactMe">Contact Me</a></li>
+                <!-- Resume opens the same page on a different tab -->
+                <li><a href="#" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +28,7 @@
         <h2>Cool subtitle here!</h2>
     </section>
 
-    <section class="AboutMe">
+    <section id="aboutMe" class="AboutMe">
         <h3>About Me</h3>
 
         <p>Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
@@ -45,13 +48,13 @@
         </p>
 
     </section>
-
+    <!-- 2 line breaks to give the sections some spacing -->
     <br>
     <br>
 
     <section class="work">
 
-        <h4>Work</h4>
+        <h4 id="work">Work</h4>
 
         <section class="firstProject">
             <p><b>Surf Report</b> <small>MERN Stack</small></p>
@@ -60,6 +63,7 @@
     </section>
 
     <section class="group">
+        <!-- Holds the first row under .firstproject -->
         <section class="row1">
             <section class="led">
                 <p><b>LED Wall</b> <small>Node/loT</small></p>
@@ -69,7 +73,7 @@
                 <p><b>Calculator</b> <small>React/JavaScript/CSS</small></p>
             </section>
         </section>
-
+        <!-- Holds the second row under .firstproject -->
         <section class="row2">
             <section class="pastel">
                 <p><b>Pastel Puzzles</b> <small>MERN Stack</small></p>
@@ -86,15 +90,15 @@
 
 
 </body>
-
+<!-- footer holds all the info and links to contact me -->
 <footer class="contactMe">
-    <h5>Contact Me</h5>
+    <h5 id="contactMe">Contact Me</h5>
     <ul class="info">
         <li><a href="#">555.555.5555</a></li>
-        <li><a href="#">Castoreno@website.com</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Spotify</a></li>
+        <li><a href="#" target="_blank">Castoreno@website.com</a></li>
+        <li><a href="#" target="_blank">GitHub</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+        <li><a href="#" target="_blank">Spotify</a></li>
     </ul>
 </footer>
 <br>
